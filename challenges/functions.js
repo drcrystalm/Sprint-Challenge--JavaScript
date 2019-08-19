@@ -27,7 +27,7 @@ function multiply(num1, num2) {
   return num1 * num2;
 }
 
-console.log(consume(10, 16, multiply);)
+console.log(consume(10, 16, multiply))
 
 
 function greeting(first, last) {
@@ -62,7 +62,7 @@ function myFunction() {
 }
 myFunction();
 
-nestedFunction can access the variable 'internal', because in JS we have access to variables defined in enclosing functions(even after the enclosing
-  function which defines these variable has returned).
-The internal variable is within the lexical environment of the nestedFunction.An environment has access to its parent 's environment, and it'
-s parent environement has access to it 's parent environment, and so on. This is known as scope chain.
+// nestedFunction can access the variable 'internal', because in JS we have access to variables defined in enclosing functions(even after the enclosing
+//   function which defines these variable has returned).
+// The internal variable is within the lexical environment of the nestedFunction.An environment has access to its parent 's environment, and it'
+// s parent environement has access to it 's parent environment, and so on. This is known as scope chain.
